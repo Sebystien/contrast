@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff);
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+/*
+*
+*
+***************# UTILITY CLASS #***************
+*
+*
+*/
+
+.flex {
+  display: flex;
+}

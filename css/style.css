@@ -1,0 +1,59 @@
+:root {
+  --clr-primary: hsl(258, 83%, 45%);
+  --clr-light-02: hsl(240, 4%, 95%);
+  --clr-light-01: hsl(0, 0%, 100%);
+  --clr-dark: hsl(163, 11%, 12%);
+  --ff: "Archivo", sans-serif;
+  --ft-w-bold: 700;
+  --ft-w-medium: 600;
+  --ft-w-regular: 400; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: var(--ff);
+  line-height: 1.6;
+  font-size: 1.6rem; }
+
+h1,
+h2,
+h3 {
+  line-height: 1.2; }
+
+/*
+*
+*
+***************# UTILITY CLASS #***************
+*
+*
+*/
+.flex {
+  display: flex; }
+
+.cta {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1.8rem 2.4rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: var(--clr-light-01);
+  background: var(--clr-primary);
+  cursor: pointer; }
+
+.row {
+  width: 90%;
+  max-width: 114rem;
+  margin: 0 auto; }
+
+.nav {
+  justify-content: space-between;
+  padding: 4rem 0; }

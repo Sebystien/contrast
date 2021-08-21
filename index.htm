@@ -5,14 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contrast | Web app</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="icon" type="img/svg" sizes="32x32" href="./Assets/logo.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav class="nav row">
+    <nav class="nav row flex">
       <div class="nav__logo">
         <img src="./Assets/logo.svg" alt="Contrast" class="nav__logo--img" />
       </div>
       <form action="nav__form">
+        <img src="./Assets/search.svg" class="search-icon" alt="Search" />
         <input type="text" class="input-text" required />
         <input
           type="submit"
@@ -21,6 +30,7 @@
         />
       </form>
     </nav>
+
     <!--
       *
       *
@@ -28,7 +38,8 @@
       *
       *
     -->
-    <header class="header row">
+
+    <header class="header row flex">
       <div class="header__hero hero">
         <h1 class="hero__title title-primary">
           Design ressources for developers
@@ -65,6 +76,10 @@
             />
           </div>
         </div>
+      </div>
+
+      <div class="header__big-img">
+        <img src="./Assets/image-hero.png" alt="Contrast" class="img" />
       </div>
     </header>
 

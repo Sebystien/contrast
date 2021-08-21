@@ -1,0 +1,22 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "This a project from codewell.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebystien/contrast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebystien/contrast/issues"
+  },
+  "homepage": "https://github.com/Sebystien/contrast#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
